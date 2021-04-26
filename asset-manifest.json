@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.178eef4e.chunk.css",
-    "main.js": "/static/js/main.cf3bbe19.chunk.js",
-    "main.js.map": "/static/js/main.cf3bbe19.chunk.js.map",
+    "main.css": "/static/css/main.d55288f9.chunk.css",
+    "main.js": "/static/js/main.66d369e1.chunk.js",
+    "main.js.map": "/static/js/main.66d369e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8357c741.js",
     "runtime-main.js.map": "/static/js/runtime-main.8357c741.js.map",
     "static/js/2.66609da6.chunk.js": "/static/js/2.66609da6.chunk.js",
@@ -14,11 +14,11 @@
     "static/js/4.a7b3db05.chunk.js": "/static/js/4.a7b3db05.chunk.js",
     "static/js/4.a7b3db05.chunk.js.map": "/static/js/4.a7b3db05.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dd336431b9eb6ceafd41052c9755c474.js": "/precache-manifest.dd336431b9eb6ceafd41052c9755c474.js",
+    "precache-manifest.c3a95f4bc406a55b98c29397d43608a7.js": "/precache-manifest.c3a95f4bc406a55b98c29397d43608a7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
     "static/css/4.3e7d09e6.chunk.css.map": "/static/css/4.3e7d09e6.chunk.css.map",
-    "static/css/main.178eef4e.chunk.css.map": "/static/css/main.178eef4e.chunk.css.map",
+    "static/css/main.d55288f9.chunk.css.map": "/static/css/main.d55288f9.chunk.css.map",
     "static/js/2.66609da6.chunk.js.LICENSE.txt": "/static/js/2.66609da6.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/University_of_Alberta_seal.svg": "/static/media/University_of_Alberta_seal.491cac42.svg",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.8357c741.js",
     "static/js/2.66609da6.chunk.js",
-    "static/css/main.178eef4e.chunk.css",
-    "static/js/main.cf3bbe19.chunk.js"
+    "static/css/main.d55288f9.chunk.css",
+    "static/js/main.66d369e1.chunk.js"
   ]
 }

@@ -7,7 +7,7 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
-import flyingRocket from "../../assets/lottie/flyingRocket";
+import CamperVan from "../../assets/lottie/42070-travel-is-fun";
 
 
 import {illustration, greeting} from "../../portfolio";
@@ -41,29 +41,29 @@ export default function Greeting() {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+              {/* <div className="button-greeting-div">
+                <Button text="Contact" href="#contact" />
                 <Button
-                  text="See my resume"
+                  text="Resumé"
                   newTab={true}
                   href={greeting.resumeLink}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* {illustration.animated ? (
-              <DisplayLottie animationData={flyingRocket} />
+            {illustration.animated ? (
+              <DisplayLottie animationData={CamperVan} />
             ) : (
               <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                alt="Arshad CBC Interview"
+                src={require("../../assets/images/arshad_cbc_interview.jpeg")}
               ></img>
-            )} */}
-            <img
-              alt="man sitting on table"
+            )}
+            {/* <img
+              alt="Arshad CBC Interview"
               src={require("../../assets/images/arshad_cbc_interview.jpeg")}
-            ></img>
+            ></img> */}
           </div>
         </div>
       </div>

@@ -91,7 +91,7 @@
   .greeting-image-div {
     /* height: 256px; */
     /* width: auto; */
-    margin-top: 2em;
+    margin-top: 0em;
     padding-left: 2em;
   }
 }
@@ -116,7 +116,7 @@
   .greeting-image-div {
     /* height: 256px; */
     /* width: auto; */
-    margin-top: 2em;
+    margin-top: 1em;
     padding-left: 2em;
   }
 }

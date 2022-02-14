@@ -1,0 +1,14 @@
+Python
+Flask (try to get a logo)
+ReactJS
+Kubernetes
+Java
+Jenkins
+C
+C++
+Ruby on rails
+
+
+
+In the news
+Demos

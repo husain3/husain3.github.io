@@ -24,8 +24,9 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/husain3",
   gmail: "husain3@ualberta.ca",
-  //linkedin: "https://www.linkedin.com/in/saadpasta/",
-  //gitlab: "https://gitlab.com/saadpasta",
+  linkedin: "https://www.linkedin.com/in/husain3/",
+  gitlab: "https://gitlab.gnome.org/husain3",
+  leetcode: "https://leetcode.com/husain3/",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!

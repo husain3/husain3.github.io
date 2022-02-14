@@ -12,7 +12,7 @@ const greeting = {
   username: "Arshad Husain",
   title: "About Me",
   subTitle: emoji(
-    "A passionate Software Developer and Computer Science graduate from the University of Alberta. I have extensive experience with Full Stack and Cloud Development in AWS. I also love experimenting with computer vision and robotics and am a strong advocate for renewable energy."
+    "Arshad is a Software Engineer and graduate from the University of Alberta. He is passionate about building solutions that offer the best customer experience. He loves to read about history and space. A good road trip is his life fuel."
   ),
   resumeLink:
     "https://drive.google.com/file/d/10JD-ULmONYxw-PHgbo1cD6P49rCq2NIN/view?usp=sharing",

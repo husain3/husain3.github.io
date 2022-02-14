@@ -8,6 +8,7 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 import workingMan from "../../assets/lottie/workingMan";
+import codingLaptop from "../../assets/lottie/63487-programming-computer";
 
 
 export default function Skills() {
@@ -21,7 +22,7 @@ export default function Skills() {
         <Fade left duration={1000}>
           <div className="skills-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={workingMan} />
+              <DisplayLottie animationData={codingLaptop} />
             ) : (
               <img
                 alt="Man Working"

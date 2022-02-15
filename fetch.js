@@ -62,7 +62,7 @@ const req = https.request(default_options, res => {
 
   console.log(`statusCode: ${res.statusCode}`);
   if (res.statusCode != 200) {
-    throw "The request to Github didn't suceed. Maybe check Github Token?";
+    // throw "The request to Github didn't suceed. Maybe check Github Token?";
   }
 
   res.on("data", d => {

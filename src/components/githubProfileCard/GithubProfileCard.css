@@ -14,9 +14,11 @@
 }
 
 .prof-title {
-  margin: 0;
+  margin-top: 2em;
+  /* margin: 0; */
   font-size: 40px;
   font-weight: 400;
+  color: #661c91;
 }
 
 .location-div {

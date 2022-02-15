@@ -1,6 +1,6 @@
 {
-  "short_name": "Saad Pasta Portfolio",
-  "name": "Saad Pasta Portfolio",
+  "short_name": "Arshad Husain Portfolio",
+  "name": "Arshad Husain Portfolio",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -13,7 +13,7 @@
       "sizes": "192x192"
     },
     {
-      "src": "/android-chrome-384x384.png?v8=qAJ44G5Bm7",
+      "src": "/android-chrome-512x512.png?v8=qAJ44G5Bm7",
       "type": "image/png",
       "sizes": "384x384"
     }

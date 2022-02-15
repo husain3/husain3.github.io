@@ -106,8 +106,8 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "University in Alberta",
-      logo: require("./assets/images/University_of_Alberta_seal.svg"),
+      schoolName: "University of Alberta",
+      logo: require("./assets/images/University_of_Alberta_seal.svg.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "Class of 2020"
       // desc: "Participated in the research of XXX and published 3 papers.",

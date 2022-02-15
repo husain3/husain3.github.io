@@ -188,7 +188,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "MAJOR PROJECTS THAT I CONTRIBUTED TO",
+  subtitle: "MAJOR PROJECTS THAT I'VE CONTRIBUTED TO",
   projects: [
     {
       image: require("./assets/images/uaarg.jpg"),

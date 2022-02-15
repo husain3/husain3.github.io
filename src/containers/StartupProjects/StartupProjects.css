@@ -78,6 +78,10 @@
   transition: 0.2s ease-in;
 }
 
+.project-subtitle {
+  color: #661c91;
+}
+
 @media (max-width: 768px) {
   .project-subtitle {
     font-size: 16px;

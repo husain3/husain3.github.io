@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fbe6723.css",
-    "main.js": "/static/js/main.d8547f34.js",
+    "main.css": "/static/css/main.33a2499a.css",
+    "main.js": "/static/js/main.72301138.js",
     "static/css/580.0d3f5581.chunk.css": "/static/css/580.0d3f5581.chunk.css",
     "static/js/580.45c6540f.chunk.js": "/static/js/580.45c6540f.chunk.js",
-    "static/css/59.1a5a64f5.chunk.css": "/static/css/59.1a5a64f5.chunk.css",
-    "static/js/59.a345bf9a.chunk.js": "/static/js/59.a345bf9a.chunk.js",
-    "static/media/University_of_Alberta_seal.svg": "/static/media/University_of_Alberta_seal.8bf9443d46d8fce48af780d52e87a324.svg",
+    "static/css/59.ccb98d1a.chunk.css": "/static/css/59.ccb98d1a.chunk.css",
+    "static/js/59.1fbdd3cc.chunk.js": "/static/js/59.1fbdd3cc.chunk.js",
     "static/media/arshad_cbc_interview.jpeg": "/static/media/arshad_cbc_interview.763a880edd530681c3ab.jpeg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/albertasat.png": "/static/media/albertasat.9deef9260322194e249d.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/University_of_Alberta_seal.svg.png": "/static/media/University_of_Alberta_seal.svg.6c8980179ffd8bab49aa.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/quoraLogo.png": "/static/media/quoraLogo.85eb29f4d52320c8ed99.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -23,15 +23,15 @@
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.6fbe6723.css.map": "/static/css/main.6fbe6723.css.map",
-    "main.d8547f34.js.map": "/static/js/main.d8547f34.js.map",
+    "main.33a2499a.css.map": "/static/css/main.33a2499a.css.map",
+    "main.72301138.js.map": "/static/js/main.72301138.js.map",
     "580.0d3f5581.chunk.css.map": "/static/css/580.0d3f5581.chunk.css.map",
     "580.45c6540f.chunk.js.map": "/static/js/580.45c6540f.chunk.js.map",
-    "59.1a5a64f5.chunk.css.map": "/static/css/59.1a5a64f5.chunk.css.map",
-    "59.a345bf9a.chunk.js.map": "/static/js/59.a345bf9a.chunk.js.map"
+    "59.ccb98d1a.chunk.css.map": "/static/css/59.ccb98d1a.chunk.css.map",
+    "59.1fbdd3cc.chunk.js.map": "/static/js/59.1fbdd3cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fbe6723.css",
-    "static/js/main.d8547f34.js"
+    "static/css/main.33a2499a.css",
+    "static/js/main.72301138.js"
   ]
 }

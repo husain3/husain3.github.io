@@ -14,10 +14,12 @@
 }
 
 .header {
-  background-color: #f5c85700;
+  background-color: #fbebc3;
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
+  border-bottom-style: solid;
+  border-color: purple;
 }
 
 .header ul {
@@ -162,8 +164,8 @@
     display: none;
   }
 }
-@media (max-width: 960px) and (min-width: 768px) {
+/* @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
   }
-}
+} */

@@ -31,15 +31,12 @@
     font-size: 40px;
   }
 }
-@media (max-width: 768px) {
+
+@media (max-width: 1000px) {
   .skills-heading {
     font-size: 30px;
     text-align: center;
-  }
-  .greeting-text-p {
-    font-size: 16px;
-    line-height: normal;
-  }
+  } 
   .skills-main-div {
     flex-direction: column;
   }
@@ -57,8 +54,15 @@
     text-align: center;
   }
   .skills-image-div {
-    /* display: none; */
+    display: none;
     order: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
   }
 }
 @media (max-width: 580px) {

@@ -27,7 +27,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/husain3/",
   gitlab: "https://gitlab.gnome.org/husain3",
   leetcode: "https://leetcode.com/husain3/",
-  //medium: "https://medium.com/@saadpasta",
+  //medium: "https://medium.com/@husain3",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
@@ -39,13 +39,13 @@ const skillsSection = {
   title: "What I do",
   subTitle: "FULL STACK WEB AND CLOUD DEVELOPER PROFICIENT IN THE LATEST FRAMEWORKS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive web applications"
-    ),
-    emoji("⚡ Develop applications using AWS cloud services"),
-    emoji(
-      "⚡ Constantly learning through tinkering and experimentation"
-    )
+    // emoji(
+    //   "⚡ Develop highly interactive web applications"
+    // ),
+    // emoji("⚡ Develop applications using AWS cloud services"),
+    // emoji(
+    //   "⚡ Constantly learning through tinkering and experimentation"
+    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon

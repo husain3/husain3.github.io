@@ -2,6 +2,11 @@
   font-size: 52px;
   font-weight: 400;
   line-height: normal;
+  text-align: center;
+}
+
+.project-button {
+  margin-bottom: 50px;
 }
 
 .startup-project-text img {

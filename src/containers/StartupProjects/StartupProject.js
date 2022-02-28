@@ -17,7 +17,7 @@ export default function StartupProject() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className={isDark ? "dark-mode skills-heading" : "skills-heading"}>{bigProjects.title}</h1>
+          <h1 className={isDark ? "dark-mode project-title" : "project-title"}>{bigProjects.title}</h1>
           
           <p
             className={
@@ -40,10 +40,12 @@ export default function StartupProject() {
                       : "project-card project-card-light"
                   }
                 >
-                  {project.image ? (
+                  {project.image1 ? (
                     <div className="project-image">
                       <img
-                        src={project.image}
+                        src={!isDark ? project.image1 : project.image2}
+                        
+                        
                         alt={project.projectName}
                         className="card-image"
                       ></img>

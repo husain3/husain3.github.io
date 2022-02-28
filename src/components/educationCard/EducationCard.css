@@ -1,6 +1,7 @@
 .education-card {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  text-align: center;
 }
 
 .education-card:hover + .education-card-border {
@@ -14,7 +15,7 @@
 
 .education-card-border {
   height: 30px;
-  width: 80%;
+  width: 100%;
   border-top: 2px solid rgba(211, 211, 211, 0.397);
   margin-bottom: 20px;
   -webkit-transition: width 0.6s ease-in-out;
@@ -40,7 +41,7 @@
 
 .education-roundedimg {
   object-fit: cover;
-  margin-right: 2rem;
+  margin-right: 0rem;
   width: 6rem;
   height: 6rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
@@ -48,7 +49,8 @@
 }
 
 .education-card-right {
-  max-width: 70%;
+  max-width: 100%;
+  padding-top: 2rem;
 }
 
 .education-text-subHeader {
@@ -82,12 +84,14 @@
   .education-card {
     flex-direction: column;
     padding-bottom: 10px;
+    text-align: center;
   }
   .education-card-right {
-    max-width: 90%;
+    padding-top: 0rem;
+    max-width: 100%;
   }
   .education-card-border {
-    width: 90%;
+    width: 100%;
   }
   .education-text-subHeader {
     padding-top: 0.5rem;
@@ -113,6 +117,7 @@
     text-align: center;
   }
   .education-card-right {
+    padding-top: rem;
     max-width: 100%;
   }
   .education-card-border {

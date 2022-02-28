@@ -79,7 +79,8 @@
 }
 
 .project-subtitle {
-  color: #661c91;
+  color: #000000;
+  text-align: center;
 }
 
 @media (max-width: 768px) {

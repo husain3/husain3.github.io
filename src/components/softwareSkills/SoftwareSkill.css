@@ -1,7 +1,7 @@
 .dev-icons {
   padding-left: 0.5em;
   list-style: none;
-  font-size: 3rem;
+  font-size: 5rem;
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
@@ -30,4 +30,30 @@
 }
 .software-skill-inline > i:hover ~ p {
   color: #645beb;
+}
+
+/* Media Query */
+@media (max-width: 2560px) {
+  .dev-icons {
+    font-size: 7rem;
+  }
+}
+
+/* Media Query */
+@media (max-width: 1920px) {
+  .dev-icons {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 1550px) {
+  .dev-icons {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1380px) {
+  .dev-icons{
+    font-size: 3rem;
+  }
 }

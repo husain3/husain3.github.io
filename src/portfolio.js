@@ -1,7 +1,7 @@
 ﻿/* Change this file to get your personal Portfolio */
 
 // Summary And Greeting Section
-
+import StyleContext from "./contexts/StyleContext";
 import emoji from "react-easy-emoji";
 
 const illustration = {
@@ -27,7 +27,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/husain3/",
   gitlab: "https://gitlab.gnome.org/husain3",
   leetcode: "https://leetcode.com/husain3/",
-  //medium: "https://medium.com/@husain3",
+  //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
@@ -37,7 +37,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK WEB AND CLOUD DEVELOPER PROFICIENT IN THE LATEST FRAMEWORKS",
+  subTitle: "SOFTWARE ENGINEER PROFICIENT IN BOTH THE LATEST AND LEGACY FRAMEWORKS",
   skills: [
     // emoji(
     //   "⚡ Develop highly interactive web applications"
@@ -53,6 +53,30 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "C",
+      fontAwesomeClassname: "devicon-c-plain"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "devicon-cplusplus-plain"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "javaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -61,41 +85,18 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
     }
+    // ,
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -108,7 +109,7 @@ const educationInfo = {
     {
       schoolName: "University of Alberta",
       logo: require("./assets/images/University_of_Alberta_seal.svg.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "BSc Computer Science",
       duration: "Class of 2020"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
@@ -188,10 +189,11 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "MAJOR PROJECTS THAT I'VE CONTRIBUTED TO",
+  subtitle: "MAJOR PROJECT CONTRIBUTIONS",
   projects: [
     {
-      image: require("./assets/images/uaarg.jpg"),
+      image1: require("./assets/images/uaarg.jpg"),
+      image2: require("./assets/images/uaargdark.png"),
       projectName: "University of Alberta Aerial Robotics Group",
       projectDesc: "Developed UAV avionics and ground-station software",
       techUsed: "C, C++, Python, Java",
@@ -204,7 +206,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/albertasat.png"),
+      image1: require("./assets/images/albertasat.png"),
+      image2: require("./assets/images/albertasat.png"),
       projectName: "AlbertaSat",
       projectDesc: "Developed and launched Alberta's first satellite, ExAlta-1",
       techUsed: "C, C++",
@@ -212,6 +215,19 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://albertasat.ca/"
+        }
+      ]
+    },
+    {
+      image1: require("./assets/images/evincelogo.png"),
+      image2: require("./assets/images/evincelogo.png"),
+      projectName: "GNOME Document Viewer",
+      projectDesc: "Developed annotation features that rival Apple Preview and Acrobat Reader",
+      techUsed: "C, C++",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://wiki.gnome.org/Apps/Evince"
         }
       ]
     }
@@ -341,7 +357,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "",
   number: "",
   email_address: ""
 };
